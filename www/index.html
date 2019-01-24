@@ -62,17 +62,14 @@
             margin: 0;
             padding: 0;
             text-align: center;
-
-            background-image: url("images/omikuji-bg.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin: 0;
-            padding: 0;
-            text-align: margin-right;
-
         }
         #hako {
-            margin-top: 15%;
+            margin-top: 30%;
+            margin-left : 0;
+            margin-right : 0;
+        }
+        #hako2 {
+            margin-top: 70%;
             margin-left : 0;
             margin-right : 0;
         }
@@ -83,7 +80,8 @@
 
         #bottombar {
             position: absolute;
-            bottom: 120px;
+            bottom: 100px;
+            bottom2:150px;
             width: 120%;
         }
     </style>
@@ -93,8 +91,14 @@
         <img id="saisyo" src="images/saikoro.png" /> 
         <img id="kekka" style="display : none;"/>
     </div>
-    <div id="bottombar">
+        <div id="hako2">
+        <img id="saisyo" src="images/saikoro2.png" /> 
+        <img id="kekka" style="display : none;"/>
+    </div>
+
+    <div id="bottombar"> 
         <img id="button" src="images/omikuji-btn-hajimeru.png" onclick="omikuji()">
+        <img id="button2" src="images/omikuji-btn-hajimeru.png" onclick="omikuji2()">
     </div>
 </body>
 </html>
